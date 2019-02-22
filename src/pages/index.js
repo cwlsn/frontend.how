@@ -1,14 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Splash from '../components/Splash';
+import GlobalStyle from '../components/GlobalStyle';
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>frontend.how</h1>
-    <small>coming soon</small>
-  </Layout>
+	<>
+		<GlobalStyle />
+		<Splash />
+	</>
 );
 
 export default IndexPage;
